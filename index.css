@@ -22,16 +22,16 @@ body {
       position: relative;
       text-align: center;
         background-color: white;
-        height: 500;
-        width: 400;
+        height: 500px;
+        width: 370px;
         float: left; 
     }
     main {
       position: relative;
       text-align: center;
       background-color: white;
-      height: 500;
-      width: 800;
+      height: 500px;
+      width: 850px;
       float: right;
       overflow: hidden;
       font-size: 20px;
