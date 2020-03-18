@@ -1,5 +1,5 @@
 header {
-    background-color: mediumorchid;
+    background-color: rgb(242, 212, 252);
     text-align: center;
     height: 60px;
     font-size: 50px;
@@ -7,37 +7,61 @@ header {
 body {
   padding: 20px;
   overflow: hidden;
-    background-color: mistyrose;
-    text-align: justify;
+   text-align: justify;
+    border: 1px solid #CCC;
   }
   footer {
-    background-color: mediumorchid;
+    background-color: rgb(242, 212, 252);
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+    position: relative;
+    clear: both; 
+  }
+  .footer {
+   
     text-align: center;
     height: 60px;
-    font-size: 30px;
     position: relative;
     clear: both; 
   }
     aside {
       position: relative;
       text-align: center;
-        background-color: white;
-        height: 500px;
+        background-color: rgb(240, 215, 240);;
+        height: 450px;
         width: 370px;
         float: left; 
+        font-size: 20px;
     }
     main {
       position: relative;
       text-align: center;
-      background-color: white;
-      height: 500px;
+      background-color: rgb(240, 215, 240);
+      height: 400px;
       width: 850px;
       float: right;
       overflow: hidden;
       font-size: 20px;
+      border: 1px solid #CCC;
+      margin-top: 25px;
     }
     social{
       display: flex;
-      margin: 20px auto;
+      margin: 30px auto;
       justify-content: space-around;
+    }
+
+
+
+
+    .column {
+      float: left;
+      width: 50%;
+      margin-top: 30px;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
     }
