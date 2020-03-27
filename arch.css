@@ -1,0 +1,49 @@
+body {
+    padding: 20px;
+    height: 600px;
+   width: 800px;
+   border: 1px solid #CCC;
+}
+main {
+    background-color: black;
+    height: 550px;
+    width: 780px;
+    border: 1px solid #CCC;
+    margin-top: 40px;
+    text-align: justify;
+    color: white;
+  }
+header {
+    
+    height: 50px;
+
+}
+.menu {
+    float: right;
+}
+nav {
+    background-color: white;
+    height: 510px;
+    width: 50px;
+    float: left;
+    color: black;
+    margin-bottom: 50px;
+    position: relative;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+  .main {
+    margin-top: 80px;
+    text-align: justify;
+  }
+footer {
+    align-content: bottom;
+    margin-top: 130px;
+  }
+  .footer {
+    float: right;
+  
+  }
+  .footer1 {
+    float: left;
+  }
